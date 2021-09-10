@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .ex3{
+            display: block;
+        }
+
+        .a{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            background-color: yellow;
+        }
+
+        .b{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            background-color: blue;
+            color: white;
+        }
+
+        .nav{
+            background-color: black; 
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .nav li{
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .nav li a{
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="nav">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Clients</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+
+
+
+
+    <h2>Display Block</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Suscipit magnam repellat <p class="ex3"> omnis aperiam</p> autem ab, 
+        molestias magni reiciendis, iste dolor voluptatem repudiandae 
+        quaerat sit doloribus quos culpa impedit asperiores!
+    </div>
+
+    <hr>
+
+    <h2>Display inline</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Suscipit magnam repellat <p class="a"> omnis aperiam</p> autem ab, 
+        molestias magni reiciendis, iste dolor voluptatem repudiandae 
+        quaerat sit doloribus quos culpa impedit asperiores!
+    </div>
+
+    <hr>
+
+    <h2>Diplays inline-block</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Suscipit magnam repellat <span class="b"> omnis aperiam</span> autem ab, 
+        molestias <span class="b"> magni reiciendis, iste dolor </span>  voluptatem repudiandae 
+        quaerat sit doloribus quos culpa impedit asperiores!
+    </div>
+
+    <h2>Diplays hidden</h2>
+
+    <h2 class="hidden">Esse é um siplay escondido</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Suscipit magnam repellat  omnis aperiam autem ab, 
+        molestias magni reiciendis, iste dolor   voluptatem repudiandae 
+        quaerat sit doloribus quos culpa impedit asperiores!
+    </div>
+</body>
+</html>

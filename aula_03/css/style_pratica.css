@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 45px;
+    color: red;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: yellow;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+
+hr{
+    color: white;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.menu a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    list-style: none;  
+    font-size: 18px;
+}
+
+
+.menu a:hover{
+    font-size: 20px;
+}
+
+.banner{
+    background-image: url('../img/bg-1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.container{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-left: 10%;
+}
+
+.conteudo{
+    text-align: justify;
+    margin-top: 5px;
+    padding: 15px;
+    
+}
+
+.imagem{
+    float: left;
+    margin-right: 15px;
+}

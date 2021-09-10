@@ -1,0 +1,28 @@
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    color: chartreuse;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color:blueviolet;
+}
+
+
+/* Criando classe*/
+.cor_preta{
+    color: black;
+}
+
+
+.cor_vermelho{
+    color: red;
+}
+
+
+/* Criando ID (só pode utilizar uma unica vez por pagina)*/
+#cor_rosa{
+    color: pink;
+}
